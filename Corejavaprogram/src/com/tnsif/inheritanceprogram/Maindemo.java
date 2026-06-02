@@ -1,5 +1,5 @@
 package com.tnsif.inheritanceprogram;
-
+//demo for inheritance
 class Father{
 	int money=90000;
 	String car="bmw";
@@ -17,6 +17,8 @@ class Son extends Father{
 }
 public class Maindemo {
 public static void main(String[] args) {
+	Father f=new Father();
+	f.drinking();
 	Son s=new Son();
 	System.out.println(s.money);
 	System.out.println(s.car);
