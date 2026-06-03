@@ -2,7 +2,7 @@ package com.tnsif.poymorphismdemo;
 // demo for method overloading
 
 class Calculator{
-	int add(int a,int b) {
+int add(int a,int b) {
 		return a+b;
 		
 	}

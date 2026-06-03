@@ -13,7 +13,15 @@ public static void main(String[]args) {// main method
 	
 	System.out.println(p.a);
 	//System.out.println(p.b);
-	System.out.println(p.s);
+	//System.out.println(p.s);
+	
+	        Student s1 = new Student("Ravi");
+	        Student s2 = new Student("Priya");
+
+	        s1.display();
+	        s2.display();
+	    
+	
 	
 	
 	System.out.println("welcome to java");
