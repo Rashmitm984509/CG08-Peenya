@@ -2,8 +2,7 @@ package com.tnsif.lambdaexpression;
 // demo for parameter
 @FunctionalInterface
 interface Cube{
-	int calculate(int a);
-	
+	int calculate(int a);	
 }
 
 public class Additionmain {
